@@ -44,6 +44,7 @@ const App = () => {
       name: newName,
       number: newNumber
     }
+    console.log(nameObject)
     personService
     .create(nameObject)
     .then(response => {
